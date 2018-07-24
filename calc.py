@@ -8,7 +8,7 @@ class Arthemetic():
         return self.x + self.y
 
     def subtract(self):
-        pass
+        return self.x - self.y
 
     def multiply(self):
         for i in range(self.x):
