@@ -1,5 +1,4 @@
 class Arthemetic():
-    result= 0
     def __init__(self, x, y):
         self.x = x
         self.y = y
@@ -11,9 +10,14 @@ class Arthemetic():
         return self.x - self.y
 
     def multiply(self):
-        for i in range(self.x):
-            result + =self.y
-        reurn result
+        return self.x * self.y
 
     def divide(self):
         return self.x // self.y
+
+#######example#########
+a = Arthemetic(2,4)
+print(a.add())  #6
+print(a.multiply()) #8
+print(a.subtract()) #-2
+print(a.divide()) #0
