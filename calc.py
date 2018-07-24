@@ -13,4 +13,4 @@ class Arthemetic():
         pass
 
     def divide(self):
-        pass
+        return self.x // self.y
