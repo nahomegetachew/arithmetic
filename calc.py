@@ -1,13 +1,16 @@
 class Arthemetic():
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
 
-    def add(self, x, y):
+    def add(self):
         pass
 
-    def subtract(self, x, y):
+    def subtract(self):
         pass
 
-    def multiply(self, x, y):
+    def multiply(self):
         pass
 
-    def divide(self, x, y):
+    def divide(self):
         pass
