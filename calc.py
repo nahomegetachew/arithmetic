@@ -4,7 +4,7 @@ class Arthemetic():
         self.y = y
 
     def add(self):
-        pass
+        return self.x + self.y
 
     def subtract(self):
         pass
